@@ -1,5 +1,5 @@
 {
-  "name": "simple-container",
+  "name": "ioc-container",
   "version": "1.0.0",
   "description": "A simple IOC container",
   "type": "module",

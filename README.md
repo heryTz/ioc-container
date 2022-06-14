@@ -1,4 +1,4 @@
-# Simple Container
+# IOC Container
 
 A simple IOC container
 
@@ -7,7 +7,7 @@ A simple IOC container
 Install via a package manager:
 
 ```bash
-npm install simple-container
+npm install ioc-container
 ```
 
 ## Usage
@@ -15,14 +15,14 @@ npm install simple-container
 Create the container and these dependecies
 
 ```js
-import SimpleContainer from 'simple-container'
+import IOCContainer from 'ioc-container'
 import { SimpleService } from './service/simpleService'
 
 const TYPES = {
     SimpleService: 'SimpleService'
 }
 
-const container = new SimpleContainer()
+const container = new IOCContainer()
 
 container.set(TYPES.SimpleService, new SimpleService())
 
