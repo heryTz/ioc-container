@@ -7,7 +7,7 @@ A simple IOC container
 Install via a package manager:
 
 ```bash
-npm install ioc-container
+npm install @herytz/ioc-container
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install ioc-container
 Create the container and these dependecies
 
 ```js
-import IOCContainer from 'ioc-container'
+import IOCContainer from '@herytz/ioc-container'
 import { SimpleService } from './service/simpleService'
 
 const TYPES = {
