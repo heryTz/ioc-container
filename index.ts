@@ -1,4 +1,4 @@
-export default class SimpleContainer {
+export default class IOCContainer {
     private dependencies = new Map()
 
     set(id: any, dep: any): this {

@@ -1,4 +1,4 @@
-export default class SimpleContainer {
+export default class IOCContainer {
 
     set(id: any, dependency: any): this
 

@@ -1,5 +1,5 @@
 // index.ts
-var SimpleContainer = class {
+var IOCContainer = class {
   constructor() {
     this.dependencies = /* @__PURE__ */ new Map();
   }
@@ -14,5 +14,5 @@ var SimpleContainer = class {
   }
 };
 export {
-  SimpleContainer as default
+  IOCContainer as default
 };
