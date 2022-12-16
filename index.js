@@ -9,7 +9,7 @@ var IOCContainer = class {
   }
   get(id) {
     if (this.dependencies.has(id) === false)
-      throw `Invalid dependency`;
+      throw `"${id}" dependency not found`;
     return this.dependencies.get(id);
   }
 };
